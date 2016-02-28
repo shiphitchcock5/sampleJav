@@ -3,10 +3,14 @@ language: java
 
 # Version number
 jdk:
-  - openjdk6
-  - openjdk7
+  #- openjdk6
+  #- openjdk7
   - oraclejdk7
   - oraclejdk8
+matrix:
+  include:
+    - jdk: openjdk7
+    
 
 build:
   ci:
