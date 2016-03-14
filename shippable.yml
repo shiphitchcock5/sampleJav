@@ -10,6 +10,7 @@ jdk:
 matrix:
   include:
     - jdk: openjdk7
+    - jdk: openjdk6
     
 
 build:
