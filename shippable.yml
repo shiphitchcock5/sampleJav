@@ -9,6 +9,7 @@ jdk:
   - oraclejdk7
  # - oraclejdk8
 env:
+ global:
   - secure: ccJOY+bAPR0MICfKdj/0FcVXuwq19XWwzEDhFVVbBXdfZzXl2mJpvAKfoYkaXQuT5JSREUFBzgXqkg4b/F1dqPzw0WtQRchqmRMQwrHfZCnlcKziOPZpVqJeegk3KB0d/OEX7oyK1P3or9jaB/PcJIf6V3x23niwlFdWhNQaUyEdAWsxgF9Bf4SsYXbhnMrYNBmoepatdW6C+WJrIOTHZAWDKLqCT7w8EapbANt2NES/tV2H4AmFLmHsHqyELwxBZpwtStoCPxZ0d7/h8o94URZtYGbguYQpCmB5KrnIUixLMHlxnP23GzQ4snxDmCzzUqXPN8mCr09Lk5LXVaz/uA==
   
 matrix:
