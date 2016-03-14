@@ -17,6 +17,9 @@ matrix:
     - jdk: openjdk6
       env: foo=bar
     - jdk: oraclejdk8
+ exclude:
+    - jdk: oraclejdk7
+    
     
 
 build:
