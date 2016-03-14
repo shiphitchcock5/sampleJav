@@ -7,10 +7,14 @@ jdk:
   #- openjdk7
   - oraclejdk7
   - oraclejdk8
+  
 matrix:
   include:
     - jdk: openjdk7
+      env:
+       - M1=one
     - jdk: openjdk6
+    - jdk: oraclejdk8
     
 
 build:
