@@ -1,6 +1,7 @@
 # Language setting
 language: java
 
+
 # Version number
 jdk:
   #- openjdk6
