@@ -8,6 +8,7 @@ jdk:
   - oraclejdk7
   - oraclejdk8
 
+
 build:
   pre_ci_boot:
     image_name: drydock/u12jav
