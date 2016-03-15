@@ -1,5 +1,6 @@
 # Language setting
 language: java
+
 services:
   - mysql
   - postgres
@@ -12,6 +13,7 @@ services:
   - rethinkdb
   - neo4j 
 # Version number
+
 jdk:
   - openjdk7
   - oraclejdk7
