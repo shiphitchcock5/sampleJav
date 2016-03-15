@@ -3,10 +3,21 @@ language: java
 
 # Version number
 jdk:
-  - openjdk6
-  - openjdk7
+ # - openjdk6
+  #- openjdk7
   - oraclejdk7
-  - oraclejdk8
+  #- oraclejdk8
+  
+matrix:
+  include:
+    - jdk: openjdk7
+      env:
+       - M1=one
+       - M2=two
+    - jdk: openjdk6
+      env: foo=bar
+    - jdk: oraclejdk8
+  #exclude:
 
 
 build:
