@@ -24,9 +24,9 @@ matrix:
      # env: foo=bar
     - jdk: oraclejdk8
   exclude:
-    - jdk: oraclejdk7
-  allow_failures:
     - jdk: openjdk6
+  allow_failures:
+    - jdk: oraclejdk7
     
     
 
@@ -34,4 +34,4 @@ build:
   ci:
     - java -version
     - echo $key1 and $key2 and $globe
-    - if [ "$SHIPPABLE_JDK_VERSION" == openjdk6 ]; then foobar; fi
+    - if [ "$SHIPPABLE_JDK_VERSION" == oraclejdk7 ]; then foobar; fi
